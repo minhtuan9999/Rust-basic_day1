@@ -40,7 +40,7 @@ pub fn search_slice() -> usize {
     let mut data = String::new();
     file.read_to_string(&mut data).expect("Error while reading file");
 
-    print!("Please input your keyword :");
+    println!("Please input your keyword :");
     
     let mut keyword = String::new();
     stdin().read_line(&mut keyword).unwrap();
